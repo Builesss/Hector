@@ -1,0 +1,32 @@
+.typewriter-section {
+  background: var(--primary);
+  color: var(--bg-color);
+  padding: 0 20px;
+}
+
+.typewriter-text {
+  font-size: 2.5rem;
+  max-width: 800px;
+  line-height: 1.6;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.char {
+  opacity: 1; /* GSAP will animate from 0 */
+}
+
+.cursor {
+  display: inline-block;
+  color: var(--accent);
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@media (max-width: 768px) {
+  .typewriter-text { font-size: 1.5rem; }
+}

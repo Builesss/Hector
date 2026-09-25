@@ -1,0 +1,45 @@
+:root {
+  --primary: #ffb6c1; /* Soft pink */
+  --secondary: #ff69b4; /* Hot pink */
+  --accent: #ffd700; /* Gold */
+  --bg-color: #fff0f5; /* Lavender blush */
+  --text-dark: #333333;
+  --text-light: #ffffff;
+  --overlay: rgba(0, 0, 0, 0.4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  overflow-x: hidden;
+}
+
+/* Golden Hour Lighting Effect */
+.golden-hour {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  background: radial-gradient(circle at 50% 0%, rgba(255, 223, 0, 0.15), transparent 60%);
+  mix-blend-mode: overlay;
+  z-index: 9999;
+}
+
+/* Utilities */
+.min-h-screen { min-height: 100vh; }
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.text-center { text-align: center; }
+.hidden { display: none; }
