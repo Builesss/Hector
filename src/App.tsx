@@ -1,4 +1,4 @@
-import React, { Suspense, lazy, useEffect } from 'react';
+import { Suspense, lazy, useEffect } from 'react';
 import confetti from 'canvas-confetti';
 import FloatingHearts from './components/FloatingHearts';
 import AudioPlayer from './components/AudioPlayer';
