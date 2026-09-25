@@ -8,17 +8,19 @@ import './PhotoGallery.css';
 gsap.registerPlugin(ScrollTrigger);
 
 const IMAGES = [
-  { src: '/img/WhatsApp Image 2026-09-25 at 8.32.31 AM.jpeg', caption: 'Nuestra primera aventura' },
-  { src: '/img/WhatsApp Image 2026-09-25 at 8.32.34 AM.jpeg', caption: 'Días inolvidables' },
-  { src: '/img/WhatsApp Image 2026-09-25 at 8.33.48 AM.jpeg', caption: 'Sonrisas compartidas' },
-  { src: '/img/WhatsApp Image 2026-09-25 at 8.33.49 AM.jpeg', caption: 'Un momento perfecto' },
-  { src: '/img/WhatsApp Image 2026-09-25 at 8.33.50 AM.jpeg', caption: 'Tú y yo' },
-  { src: '/img/WhatsApp Image 2026-09-25 at 8.33.52 AM.jpeg', caption: 'Magia pura' },
-  { src: '/img/WhatsApp Image 2026-09-25 at 8.33.53 AM.jpeg', caption: 'Esa mirada...' },
-  { src: '/img/WhatsApp Image 2026-09-25 at 8.33.54 AM.jpeg', caption: 'Siempre juntos' },
-  { src: '/img/WhatsApp Image 2026-09-25 at 8.33.55 AM.jpeg', caption: 'Nuestro rincón favorito' },
-  { src: '/img/WhatsApp Image 2026-09-25 at 8.33.56 AM.jpeg', caption: 'Luz de mi vida' },
-  { src: '/img/WhatsApp Image 2026-09-25 at 8.34.08 AM.jpeg', caption: 'Para siempre' }
+  { src: '/img/photo1.jpeg', caption: 'Nuestra primera aventura' },
+  { src: '/img/photo2.jpeg', caption: 'Días inolvidables' },
+  { src: '/img/photo3.jpeg', caption: 'Sonrisas compartidas' },
+  { src: '/img/photo4.jpeg', caption: 'Un momento perfecto' },
+  { src: '/img/photo5.jpeg', caption: 'Tú y yo' },
+  { src: '/img/photo6.jpeg', caption: 'Magia pura' },
+  { src: '/img/photo7.jpeg', caption: 'Esa mirada...' },
+  { src: '/img/photo8.jpeg', caption: 'Siempre juntos' },
+  { src: '/img/photo9.jpeg', caption: 'Nuestro rincón favorito' },
+  { src: '/img/photo10.jpeg', caption: 'Luz de mi vida' },
+  { src: '/img/photo11.jpeg', caption: 'Para siempre' },
+  { src: '/img/photo12.jpeg', caption: 'Mi mayor tesoro' },
+  { src: '/img/photo13.jpeg', caption: 'Eternamente' }
 ];
 
 export default function PhotoGallery() {
