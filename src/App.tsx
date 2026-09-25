@@ -8,12 +8,10 @@ const Hero = lazy(() => import('./components/Hero'));
 const PhotoGallery = lazy(() => import('./components/PhotoGallery'));
 const LoveTypewriter = lazy(() => import('./components/LoveTypewriter'));
 const BirthdayGifts = lazy(() => import('./components/BirthdayGifts'));
-const VideoModal = lazy(() => import('./components/VideoModal'));
 const LoveNotes = lazy(() => import('./components/LoveNotes'));
 
 function App() {
   useEffect(() => {
-    // Fire confetti when the page loads
     const duration = 3 * 1000;
     const end = Date.now() + duration;
 
@@ -52,7 +50,6 @@ function App() {
           <PhotoGallery />
           <BirthdayGifts />
           <LoveNotes />
-          <VideoModal />
         </Suspense>
       </main>
 
